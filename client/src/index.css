@@ -1,0 +1,22 @@
+body {
+    position: fixed;
+    margin: 0px;
+    top: 0;
+    left: 0;
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+    margin-right: 10px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+
+::-webkit-scrollbar-thumb {
+    background: lightgrey;
+    border-radius: 10px;
+}

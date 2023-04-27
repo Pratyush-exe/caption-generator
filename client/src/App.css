@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+
+.app {
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Montserrat';
+}
+
+.image-cont-main {
+    width: 60%;
+    height: 40%;
+}
+
+.caption-cont {
+    width: 60%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+}
+
+.display-cont {
+    height: 100%;
+    width: 70%;
+    border: 1px lightgrey solid;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+
+.caption {
+    width: 200px;
+    border: 1px black solid;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Montserrat';
+}
+
+.text-input {
+    min-height: 30px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin: 1px;
+    padding-left: 5px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.input-cont {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.img-cont {
+    width: 100%;
+    height: 80%;
+    border: 1px lightgrey solid;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+}
+
+.button-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+button {
+    width: 48%;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px black solid;
+    cursor: pointer;
+    font-family: 'Montserrat';
+}
+
+.image {
+    height: 90%;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px 1px lightgrey;
+}
+
+.react-image-file-to-base64 {
+    display: none;
+}
+
+.loadingSpinnerContainer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 5000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .loadingSpinner {
+    width: 64px;
+    height: 64px;
+    border: 8px solid;
+    border-color: transparent rgb(255, 255, 255) transparent;
+    border-radius: 50%;
+    animation: spin 1.2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .caption p {
+    font-size: small;
+  }
