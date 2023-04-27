@@ -1,5 +1,9 @@
 # caption-generator
-AI tool that allows user to generate captions for social media using the images. This is the overall flowchart of the assignment
+AI tool that allows user to generate captions for social media using the images. 
+
+Link to [demo video](https://youtu.be/2Gth4SzvYLE)
+
+This is the overall flowchart of the assignment
 
 ## Steps to use it
 Assuming Node and python is installed on the device.
