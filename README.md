@@ -5,7 +5,7 @@ Link to [demo video](https://youtu.be/2Gth4SzvYLE)
 
 This is the overall flowchart of the assignment
 
-![flowchart](flowchart.png)
+![flowchart](/flowchart.png)
 
 ## Steps to use it
 Assuming Node and python is installed on the device.
